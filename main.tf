@@ -22,7 +22,7 @@ resource "aws_subnet" "public-subnet-1c" {
   availability_zone = "us-east-1c"
 
   tags = {
-    Name = "iac-public-subnet-1c"
+    Name = "iac-public-subnet-1a"
   }
 }
 
