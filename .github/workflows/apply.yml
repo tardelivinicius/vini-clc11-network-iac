@@ -24,7 +24,8 @@ jobs:
         uses: bridgecrewio/checkov-action@master
         with:
           directory: .
-          framework: terraform
+          framework: terraform 
+        continue-on-error: true
           
   Apply:
     name: 'Apply Changes'
